@@ -1,0 +1,71 @@
+cmake_minimum_required( VERSION 2.6 )
+project(EmindCloudPrinter)
+
+set(HEADERS
+    client.h
+    cupsbackend.h
+    emindprintdbus.h
+    licensefactory.h
+    printer.h
+)
+
+set(SOURCES
+    main.cpp
+    client.cpp
+    cupsbackend.cpp
+    emindprintdbus.cpp
+    licensefactory.cpp
+    printer.cpp
+)
+
+set(MOCS
+    client.h
+    cupsbackend.h
+    emindprintdbus.h
+    licensefactory.h
+    printer.h
+)
+
+set(LIBRARIES
+)
+
+set(QT_USE_QTDBUS 1)
+set(UI_FILES
+)
+
+set(RESOURCES
+    qml.qrc
+)
+
+file(GLOB TS_FILES
+)
+
+set(TRANSLATIONS_DIR
+)
+
+
+
+
+
+
+###########################################################
+
+setByDefault(INSTANCE_NAME      "EmindCloudPrinter")
+setByDefault(URI_NAME      "ecp")
+
+setFirstUpper(CUPS_BACKEND_NAME "${INSTANCE_NAME}")
+
+setByDefault(CUPS_BACKEND_URI   "${URI_NAME}:/")
+setByDefault(CUPS_BACKEND_INFO  "${CUPS_BACKEND_NAME}")
+setByDefault(CUPS_BACKEND_MODEL "${CUPS_BACKEND_NAME} printer")
+setByDefault(CUPS_BACKEND_DESCRIPTION  "Virtual ${INSTANCE_NAME} printer")
+setByDefault(CUPS_BACKEND_MANUFACTURER "Generic")
+
+setByDefault(GUI_PROGRAM    ${GUI_DIR}/${INSTANCE_NAME})
+setByDefault(GUI_SHARE_DIR  ${CMAKE_INSTALL_PREFIX}/share/${INSTANCE_NAME})
+
+setByDefault(CUPS_BACKEND_DIR   ${DEF_CUPS_BACKEND_DIR})
+setByDefault(CUPS_FILTER_DIR    ${DEF_CUPS_FILTER_DIR})
+setByDefault(CUPS_PPD_DIR       ${DEF_CUPS_PPD_DIR})
+setByDefault(DBUS_MACINE_ID_DIR ${DEF_DBUS_MACINE_ID_DIR})
+setByDefault(DBUS_SERVICE_DIR   ${DEF_DBUS_SERVICE_DIR})

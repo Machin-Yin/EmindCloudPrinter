@@ -1,0 +1,5 @@
+emindprinter (1.0.1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- wufeiyun <wufeiyun@unknown>  Mon, 26 Dec 2016 13:53:06 +0800

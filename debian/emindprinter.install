@@ -1,0 +1,16 @@
+cups/emindprinterbackend  usr/lib/emindprinter/
+#usr/lib/emindprinter/emindprintermerger
+cups/emindprinter usr/lib/cups/backend/
+#usr/lib/cups/filter/emindprinter_pstopdf
+#usr/share/applications/emindprinter.desktop
+#usr/share/emindprinter/translations/emindprinterer_*.qm
+org.emindprinter.service usr/share/dbus-1/services/
+#usr/share/icons/hicolor/128x128/apps/emindprinter.png
+#usr/share/icons/hicolor/16x16/apps/emindprinter.png
+#usr/share/icons/hicolor/32x32/apps/emindprinter.png
+#usr/share/icons/hicolor/64x64/apps/emindprinter.png
+#usr/share/man/man1/emindprinter.1.gz
+#usr/share/mime/packages/emindprinter.xml
+cups/emindprinter.ppd  usr/share/ppd/emindprinter/
+translations  usr/share/emindprinter/
+img    /usr/share/emindprinter/

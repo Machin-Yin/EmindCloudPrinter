@@ -1,0 +1,36 @@
+
+/*@import url("reset.css");*/
+
+.btnSelectLocal {
+	background-color:#f5f5f5;
+	border-color:#cccccc;
+	border-width:1px;
+}
+
+/*.btnSelectEmind {
+	background-color:#f5f5f5;
+	border-color:#cccccc;
+	border-width:1px;
+}*/
+
+.btnSelectedLocal {
+	background-color:#f5f5f5;
+	border-color:#0086ff;
+	border-width:1px;
+}
+
+#btnSelectNext{
+	background-color:#0087ff;
+}
+
+#btnSelectCancel{
+	background-color:#f5f5f5;
+}
+
+
+/*.btnSelectedEmind {
+	border-color:#0086ff;
+	border-width:1px;
+}*/
+
+

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>PrinterList.qml</file>
+        <file>ClientLogin.qml</file>
+        <file>client.js</file>
+        <file>img/printer.png</file>
+    </qresource>
+</RCC>

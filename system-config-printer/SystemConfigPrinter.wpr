@@ -1,0 +1,60 @@
+#!wing
+#!version=5.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+console.toolbox = [{'autosave': False,
+                    'cmd': u'',
+                    'env': ('project',
+                            ''),
+                    'id': 'cmd-K9Gz7gs0oZMX46C9',
+                    'io_encoding': None,
+                    'key_binding': None,
+                    'line_mode': True,
+                    'pseudo_tty': False,
+                    'pypath': ('project',
+                               ''),
+                    'raise_panel': True,
+                    'rundir': ('project',
+                               ''),
+                    'title': None}]
+debug.launch-configs = (1,
+                        {'launch-cOC2WDnuE15P5pAO': ({},
+        {'buildcmd': ('project',
+                      None),
+         'env': ('project',
+                 [u'']),
+         'name': 'Launch Config',
+         'pyexec': ('project',
+                    u''),
+         'pypath': ('project',
+                    ''),
+         'pyrunargs': ('project',
+                       '-u'),
+         'runargs': u'',
+         'rundir': ('project',
+                    u'')})})
+proj.directory-list = [{'dirloc': loc('.'),
+                        'excludes': (),
+                        'filter': u'*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-type = 'shared'
+proj.launch-config = {loc('gui.py'): ('project',
+                                      (u'',
+                                       'launch-cOC2WDnuE15P5pAO')),
+                      loc('ppdcache.py'): ('custom',
+        (u'',
+         'launch-cOC2WDnuE15P5pAO')),
+                      loc('printerproperties.py'): ('project',
+        (u'',
+         'launch-cOC2WDnuE15P5pAO')),
+                      loc('serversettings.py'): ('project',
+        (u'',
+         'launch-cOC2WDnuE15P5pAO')),
+                      loc('system-config-printer.py'): ('project',
+        (u'',
+         'launch-cOC2WDnuE15P5pAO'))}
+proj.main-file = loc('system-config-printer.py')
